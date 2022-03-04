@@ -1,0 +1,172 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800|Raleway:400,200,100,300,500,600,700,800,900");
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Raleway, Arial, sans-serif;
+    
+}
+body{
+    // delete after
+    .bord{
+        border: 1px solid red;
+    }
+.white{
+    color: #FFFFFF;
+}
+.green{
+    color:#3d9f96;
+}
+.bg_green{
+    background-color: #3d9f96;
+}
+.fw_light{
+    font-weight: lighter;
+}
+.fw_bold{
+    font-weight: 800;
+}
+.fs_sm{
+    font-size: 14px;
+}
+.fs_mid{
+    font-size: 18px;
+}
+
+    h2{
+        font-weight: lighter;
+    }
+    button{
+        width: 200px;
+        height: 60px;
+        border-radius: 2em;
+        border: none;
+        color: #FFFF;
+        font-weight: bold;
+        background-color: #3d9f96;
+        cursor: pointer;
+    }
+
+    header{
+        background-image: url("../assets/img/header_bg.jpg");
+        
+        nav{
+            border-bottom: 2px solid #322f36;
+            a{
+                margin: 0 auto;
+                #sayna_hidden{
+                    width: 300px;
+                    
+                    
+                }
+            }
+            div{
+                
+                ul{
+                    li{
+                        
+                        a{  
+                            
+                            
+                            img{
+                                margin: 5px auto;
+                                width: 200px;
+                                
+                            }
+                        }
+                        &:last-child{
+                            a{
+                                color:#3d9f96;
+                                text-decoration:underline;
+                                
+                            }
+                        }
+                    }
+                }
+            }
+            
+        }
+        .new_app{
+           
+           text-align: center;
+           line-height:30px;
+
+           h1{
+               margin-top: 40px;
+               margin-bottom: 20px;
+           }
+           p{
+               padding: 6% 8% 5% 8%;
+           }
+           
+           
+        }
+    }
+    .social{
+       text-align: center;
+       background-color: #f7f7f7;
+       img{
+            padding:30px 4% 4% 0;
+        }
+       
+       
+    }
+    .app_presentation{
+        padding-top: 50px;
+        .check_our{
+            text-align: center;
+            padding: 0 15% 0 15%;
+            h2{
+                padding-bottom: 30px;
+            }
+        }
+    }
+    .awesomeness{
+        
+        
+  
+        ul{
+            li{
+                figure{
+                    img, figcaption{
+                        display: inline-flex;
+                        vertical-align: middle;
+                        font-weight: bolder;
+                    }
+                }
+                &:first-child, &:last-child{
+                    padding-top: 3%;
+                    
+                }
+                &:last-child{
+                    
+                    img{
+                        background-color: red;
+
+                    }
+                    figcaption{
+                        background:blue;
+
+                    }
+                    p{
+                        background-color: purple;
+                    }
+                }
+
+            }
+           
+        }
+
+    }
+    .profile{
+        background-image: url("../assets/img/seperator1-.jpg");
+        padding: 30px 10% 30px 10%;
+        line-height: 25px;
+    }
+    .first_part{
+        background-color: #f7f7f7;
+        
+    }
+}
