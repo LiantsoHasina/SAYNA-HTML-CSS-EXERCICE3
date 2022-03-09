@@ -9,10 +9,7 @@
     
 }
 body{
-    // delete after
-    .bord{
-        border: 1px solid red;
-    }
+
 .white{
     color: #FFFFFF;
 }
@@ -154,16 +151,34 @@ body{
              padding: 30px 10% 30px 10%;
              line-height: 25px;
          }
+         .screenshot{
+             background-color: #f7f7f7;
+         }
+         .details{
+             padding-top: 30px;
+             .img_resize{
+                width: 400px;
+            }
+             .details_2{
+                margin-bottom: 30px;
+                margin-top: 30px;
+            }
+         }
+         
 }
     
 footer{
 
     background-color: #f7f7f7;
+    
     .first_part{
         
         padding-top: 20px;
         
 
+    }
+    .second_part{
+        background-color: #FFFFFF;
     }
 }
     
