@@ -104,69 +104,67 @@ body{
            
         }
     }
-    .social{
-       text-align: center;
-       background-color: #f7f7f7;
-       img{
-            padding:30px 4% 4% 0;
-        }
-       
-       
-    }
-    .app_presentation{
-        padding-top: 50px;
-        .check_our{
+    main{
+        .social{
             text-align: center;
-            padding: 0 15% 0 15%;
-            h2{
-                padding-bottom: 30px;
-            }
-        }
-    }
-    .awesomeness{
-        
-        
-  
-        ul{
-            li{
-                figure{
-                    img, figcaption{
-                        display: inline-flex;
-                        vertical-align: middle;
-                        font-weight: bolder;
-                    }
-                }
-                &:first-child, &:last-child{
-                    padding-top: 3%;
-                    
-                }
-                &:last-child{
-                    
-                    img{
-                        background-color: red;
+            background-color: #f7f7f7;
+            img{
+                 padding:30px 4% 4% 0;
+             }
+            
+            
+         }
+         .app_presentation{
+             padding-top: 50px;
+             .check_our{
+                 text-align: center;
+                 padding: 0 15% 0 15%;
+                 h2{
+                     padding-bottom: 30px;
+                 }
+             }
+         }
+         .awesomeness{
+             background-image: url("../assets/img/map_bg.png");
+             
+             
+       
+             ul{
+                 li{
+                     figure{
+                         img, figcaption{
+                             display: inline-flex;
+                             vertical-align: middle;
+                             font-weight: bolder;
+                         }
+                     }
+                     &:first-child, &:last-child{
+                         padding-top: 3%;
+                         
+                     }
 
-                    }
-                    figcaption{
-                        background:blue;
+     
+                 }
+                
+             }
+     
+         }
+         .profile{
+             background-image: url("../assets/img/seperator1-.jpg");
+             padding: 30px 10% 30px 10%;
+             line-height: 25px;
+         }
+}
+    
+footer{
 
-                    }
-                    p{
-                        background-color: purple;
-                    }
-                }
-
-            }
-           
-        }
-
-    }
-    .profile{
-        background-image: url("../assets/img/seperator1-.jpg");
-        padding: 30px 10% 30px 10%;
-        line-height: 25px;
-    }
+    background-color: #f7f7f7;
     .first_part{
-        background-color: #f7f7f7;
         
+        padding-top: 20px;
+        
+
     }
+}
+    
 }

@@ -95,56 +95,52 @@ body header .new_app p {
   padding: 6% 8% 5% 8%;
 }
 
-body .social {
+body main .social {
   text-align: center;
   background-color: #f7f7f7;
 }
 
-body .social img {
+body main .social img {
   padding: 30px 4% 4% 0;
 }
 
-body .app_presentation {
+body main .app_presentation {
   padding-top: 50px;
 }
 
-body .app_presentation .check_our {
+body main .app_presentation .check_our {
   text-align: center;
   padding: 0 15% 0 15%;
 }
 
-body .app_presentation .check_our h2 {
+body main .app_presentation .check_our h2 {
   padding-bottom: 30px;
 }
 
-body .awesomeness ul li figure img, body .awesomeness ul li figure figcaption {
+body main .awesomeness {
+  background-image: url("../assets/img/map_bg.png");
+}
+
+body main .awesomeness ul li figure img, body main .awesomeness ul li figure figcaption {
   display: inline-flex;
   vertical-align: middle;
   font-weight: bolder;
 }
 
-body .awesomeness ul li:first-child, body .awesomeness ul li:last-child {
+body main .awesomeness ul li:first-child, body main .awesomeness ul li:last-child {
   padding-top: 3%;
 }
 
-body .awesomeness ul li:last-child img {
-  background-color: red;
-}
-
-body .awesomeness ul li:last-child figcaption {
-  background: blue;
-}
-
-body .awesomeness ul li:last-child p {
-  background-color: purple;
-}
-
-body .profile {
+body main .profile {
   background-image: url("../assets/img/seperator1-.jpg");
   padding: 30px 10% 30px 10%;
   line-height: 25px;
 }
 
-body .first_part {
+body footer {
   background-color: #f7f7f7;
+}
+
+body footer .first_part {
+  padding-top: 20px;
 }
